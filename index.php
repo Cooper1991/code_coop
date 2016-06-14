@@ -8,13 +8,16 @@
 </head>
 <body>
  
-     <div class="container-fluid">
-         <div class="background">
+        <div class="container-fluid">
+         <div class="welcome">
+            
+            <h1>Welcome to Code Coops</h1>
+            <h4>Site under construction, but don't get too excited</h4>
              
          </div>
-     </div>
-
-  
+    </div>
+     
+     
 
     
     <script src="assets/js/jquery-1.12.3.min.js"></script>

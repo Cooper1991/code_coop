@@ -1,3 +1,17 @@
-.background {
-    background:url(../img/background.jpg) no-repeat;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+  background:url(../img/background_main.png) no-repeat;
+background-size: cover;
+}
+
+.welcome {
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+
