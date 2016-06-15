@@ -3,15 +3,24 @@
     padding: 0;
 }
 
+html, body {
+    height:100%;
+}
+
 body {
   background:url(../img/background_main.png) no-repeat;
-background-size: cover;
+  background-size: cover;
+  height:100%;
 }
+
 
 .welcome {
     text-align: center;
     color:#fff;
-    vertical-align: middle;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
+
+
 
