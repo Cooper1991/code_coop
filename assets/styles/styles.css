@@ -3,24 +3,145 @@
     padding: 0;
 }
 
-html, body {
+html,body {
     height:100%;
 }
 
-body {
-  background:url(../img/background_main.png) no-repeat;
-  background-size: cover;
-  height:100%;
+.container-fluid {
+    padding:0;
 }
 
+.main-welcome {
+     height:100vh;
+}
 
-.welcome {
-    text-align: center;
+.welcome-left {
+    height:100%;
+    background-color: cadetblue;
+}
+
+.welcome-left h1 {
+    padding-top: 300px;
+}
+
+.welcome-left h1, .welcome-left h3 {
     color:#fff;
-    font-family: 'Montserrat', sans-serif;
+}
+
+.glyphicon {
+    color:#fff;
+}
 
 
+/*LIGHT*/
+.container {
+  width:300px;
+}
+.end{
+  width:30px;
+  border-radius:5px;
+  height:20px;
+  background-color:grey;
+  position:relative;
+  right:8px;
+  bottom:15px;
 }
 
 
 
+.lightHead {
+  position:relative;
+  width:15px;
+  background-color:grey;
+  height:35px;
+  transform:rotate(120deg);
+  left:34px;
+  top:17px;
+  border-radius:5px;
+}
+
+.lightStem {
+  width:7px;
+  height:140px;
+  background-color:grey;
+  position:relative;
+  left:30px; []
+  border-radius:5px;
+}
+
+.lightBase {
+  width:65px;
+  height:15px;
+  background-color:grey;
+  border-radius:10px;
+  position:relative;
+  top:-3px;
+}
+.flicker {
+    height: 35px;
+    background: linear-gradient(to right, rgb(255,255,102), rgb(255,255,109));
+    transform: rotate(87deg);
+    position: relative;
+    top: -30px;
+    z-index:-1;
+   border-radius:5px
+}
+
+
+
+
+/*LAPTOP*/
+
+.laptop {
+  width: 320px;
+  height: 20px;
+  background-color: #b7b7b7;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+  border:1px solid #929292;
+}
+
+.light {
+  height:6px;
+  width:5px;
+  background-color:#78ff82;
+  position:relative;
+  margin-right:5px;
+  display: inline-block;
+  position:relative;
+  left:9px;
+}
+
+
+.table {
+  height:230px;
+  width:360px;
+  background-color:#993300;
+  border-radius:5px;
+}
+
+.drawer {
+  height:20%;
+  width:100%;
+  margin:10px 0;
+  text-align:center;
+  background-color:#996600;
+  position:relative;
+  top:50px;
+  border-radius:2px;
+}
+
+.handle {
+  width:20px;
+  height:20px;
+  position:relative;
+  background-color:#50292b;
+  text-align:center;
+  border-radius:100%;
+  margin:auto;
+  top:10px;
+}
